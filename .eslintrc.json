@@ -13,11 +13,7 @@
         "sourceType": "module"
     },
     "parser": "@typescript-eslint/parser",
-    "plugins": [
-        "import",
-        "@typescript-eslint",
-        "prettier"
-    ],
+    "plugins": ["import", "@typescript-eslint", "prettier"],
     "rules": {
         "jsx-a11y/alt-text": "off"
     },
