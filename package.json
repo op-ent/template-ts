@@ -28,7 +28,7 @@
         "test"
     ],
     "scripts": {
-        "start": "tsup --watch \"src/**/*.{js,ts}\"",
+        "dev": "tsup --watch \"src/**/*.{js,ts}\"",
         "build": "tsup",
         "test": "vitest run",
         "test:ui": "vitest --ui",
