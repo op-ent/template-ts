@@ -27,6 +27,9 @@
         "lint",
         "test"
     ],
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "dev": "tsup --watch \"src/**/*.{js,ts}\"",
         "build": "tsup",
@@ -37,7 +40,8 @@
         "prettier:check": "prettier -c .",
         "prettier:write": "prettier -w .",
         "prepare": "yarn build",
-        "size": "size-limit"
+        "size": "size-limit",
+        "npm:publish": "np"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.31.0",
@@ -48,6 +52,7 @@
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-import": "^2.26.0",
         "eslint-plugin-prettier": "^4.2.1",
+        "np": "^7.6.2",
         "pre-commit": "^1.2.2",
         "prettier": "^2.7.1",
         "size-limit": "^7.0.8",
